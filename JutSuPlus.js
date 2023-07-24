@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.2
 // @description  try to take over the world!
-// @author       Karasu
+// @author       Deoconst
 // @match        https://jut.su/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=jut.su
 // @grant        GM_getValue
