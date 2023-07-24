@@ -20,6 +20,8 @@ var windowOnloadAdd = function (event) {
 };
 
 windowOnloadAdd(function() {
+    setTimeout(checkNextEpisodeElement, 5000);
+    setTimeout(checkIntroElement, 5000);
     document.getElementsByTagName("video")[0].play();
     document.getElementsByTagName("video")[0].playbackRate = getDataFromLocal(1);
     function saveData(key, value) {
